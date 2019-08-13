@@ -58,7 +58,19 @@ ssh-keygen
  and store it in a setting of github
 ssh -T git@github.com
 
-
+***************************** Branch Steps *********************
+git clone https://github.com/ibagga/Trial.git
+git branch IshuBagga
+git Checkout IshuBagga
+ -- make the required changes in files
+git status
+git add -A
+git commit -m "comment"
+git push -u origin IshuBagga
+git checkout master
+git pull origin master
+git merge IshuBagga
+git push origin master
 
 
 
